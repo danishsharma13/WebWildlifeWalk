@@ -1,0 +1,125 @@
+/* 
+  Name: Danish Sharma
+  ID: 148201205
+  Email: dsharma115@myseneca.ca
+  Date: August 7, 2021 
+*/
+/* Header */
+#hero {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#hero > img {
+  width: 100%;
+  height: auto;
+  filter: brightness(50%);
+}
+
+.quote {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Wildlife Observations Map */
+#map-container {
+  height: 450px;
+  width: 100%;
+}
+
+.marker-text {
+  text-align: center;
+}
+
+/* Wildlife Observations Table */
+.buttons {
+  text-align: center;
+  margin: 2em;
+}
+.buttons > button:hover {
+  background-color: lightblue;
+}
+
+td {
+  vertical-align: middle;
+}
+
+time {
+  background: inherit;
+}
+
+/* Footer */
+footer {
+  text-align: right;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+#observation-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#observation-cards > div {
+  height: 515px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  margin-bottom: 25px;
+}
+
+.card-img {
+  width: 375px;
+  height: 375px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-body {
+  padding: 15px 0;
+  margin: 0 10px;
+  font-family: arial;
+}
+
+.card-body a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-body a:hover {
+  text-decoration: underline;
+}
+
+.card-body h3 {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+.card-body h4 {
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+
+.card-icons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 15px;
+}
+
+.card-icons i {
+  margin: 5px;
+  font-size: 1.1rem;
+}
